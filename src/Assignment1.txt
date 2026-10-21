@@ -1,0 +1,25 @@
+1. A self-referential class is a class that contains an instance variable 
+that references an object of the same class. An example is VehicleNode 
+because it contains a VehicleNode reference named next.
+
+2. I would use a linked list because the number of passengers can vary 
+greatly. A linked list can grow dynamically as more passengers are added 
+without requiring a fixed size. An array has a fixed size and may need to 
+be recreated when it becomes full.
+
+3. The Big O is O(n). Since the list is unordered, the algorithm may have 
+to examine every passenger before finding the desired passenger.
+
+4. One method is throwing an exception from the constructor. The exception 
+can inform the calling method that invalid data or another runtime error 
+occurred.
+
+5. The Bif O of size() is O(n) because every node in te linked list must be 
+visited and counted.
+
+6. The Big O of removeFirst() is O(1) because only the head reference 
+changes regardless of the size of the linked list. 
+
+7. Vehicle is a reference type. Reference variables can contain either an 
+object reference or null. Therefore methods with a return type of Vehicle 
+can return null when no Vehicle object exists.
